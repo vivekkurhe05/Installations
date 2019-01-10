@@ -52,3 +52,10 @@ To deactivate the virtual environment, use following command
 
 
 Note: If you have installed project in virtual environment, the project will run only after virtual environement is activated.
+
+
+===================================================================================
+
+#To take a dump of a particular table, use following command
+
+python manage.py dumpdata --indent 2 users.organisationtype > /home/vivek/Desktop/sample_data.json
